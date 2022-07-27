@@ -6,5 +6,9 @@ public class MyDraw implements Drawable{
 	public void draw() {
 		System.out.println("drawing some shape");
 	}
+	
+	public static int getLength(String str) {
+		return str.length();
+	}
 
 }
