@@ -12,7 +12,7 @@ public class ME {
 				super.run();
 				OfficeBoy myBoy = new OfficeBoy();
 				MobilePhoneListener mobilePhone = new MyBrother();
-				myBoy.doGovtWork(mobilePhone);
+				myBoy.doGovtWork("get my license",mobilePhone);
 			}
 		}.start();
 		System.out.println("abdul has left for airport");

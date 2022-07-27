@@ -2,7 +2,7 @@ package callbacks;
 
 public class OfficeBoy {
 
-	public void doGovtWork(MobilePhoneListener mobilePhone) {
+	public void doGovtWork(String request,MobilePhoneListener mobilePhone) {
 		System.out.println("office boy : i am going for work");
 		
 		try {
