@@ -4,8 +4,8 @@ public class Wiring {
 	
 	public static void main(String[] args) {
 		SwitchBoardListener sbl;
-		sbl = new HavellsAppliances(); //wiring
-				//new GEAppliances();
+		sbl = //new HavellsAppliances(); //wiring
+				new GEAppliances();
 		
 		sbl.switchOne(); //clicking of switches
 		sbl.switchTwo();
